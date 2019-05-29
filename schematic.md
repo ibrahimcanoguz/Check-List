@@ -1,0 +1,60 @@
+# Şematik Şekli ve Elektronik Kontrol Listesi
+
+## Şematik Şekli Kontrol Listesi
+
+- [ ] Şematik tasarımın her sayfasında dosya ismi mevcut.
+- [ ] Tüm bağlantılarda bağlantı işateti (nokta) mevcut.
+- [ ] Komponent değerleri minimum karakterle ifade edilmiş.
+- [ ] Şematik üzerindeki karakter boyutları okunabilir büyüklükte.
+- [ ] Şematik okunabilir bir ölçekte basılmış.
+- [ ] Tüm komponent referansları ve değerleri mevcut.
+- [ ] Gerekli durumlarda PCB veya komponentlerin ek (spesifik) bilgileri belirtilmiş.
+- [ ] Komponentler için gizli olan güç pinleri şematik üzerinde belirtilmiş.
+- [ ] Komponentler için gizli olan güç pinleri kontrol edildi.
+- [ ] Şematik üzerinde yer alan bilgi bloğu tamamen doldurulmuş.
+- [ ] Tüm komponentlere ait pin numaraları ve foot-print eşleştirmeleri datasheet üzerinden kontrol edildi.
+- [ ] Veri iletişim yolları için giriş çıkış sıralaması ve referans isimleri doğru.
+- [ ] Komponentlerin üretici tarafından halen üretildiği ve bulunabilir olduğu kontrol edildi.
+- [ ] Komponent alternatifleri ve uyumluluk durumu raporlandı.
+- [ ] UART iletişim yolu bağlantılarının doğru olduğu kontrol edildi.
+- [ ] I2C gibi adresli komponentler için adres çakışması olmadığı kontrol edildi.
+- [ ] SPI iletişim yolu bağlantılarının doğru olduğu kontrol edildi.
+- [ ] Tüm sinyal hatları yazılın geliştiriciler için detaylandırılmış.
+- [ ] Entegreler üzerinde yer alan tüm bağlı olmayan pinler (boşta) NC olarak etiketlenmiş (yazı veya sembol ile).
+- [ ] Şematik üzerinde yer alan metinler bağlantı veya komponent sembolü ile çakışmamış.
+- [ ] Şematik sayfası dışı bağlantılar uygun şekilde belirtilmiş.
+- [ ] Soket bağlantı sıralamaları (kaynak-hedef) kontrol edildi.
+- [ ] Bilgi bloğu üzerinde yer alan şematik başlığı tutarlı.
+- [ ] Çok kapılı entegrelerin kullanımları kontrol edildi.
+- [ ] Kart dışı bağlantılar kullanılmamış olsa bile şematik üzerinde tanımlanmıştır.
+- [ ] Versiyon tipine bağlı olarak dizilmeyecek komponentler düzgün şekilde belirtilmiş.
+- [ ] Versiyon tipine bağlı olarak alternartif kullanımlı parçalar uygun şekilde tanımlanmış.
+- [ ] Şematik üzerinde pull-up ve/veya pull-down pinleri uygun semboller ile tanımlanmış.
+- [ ] Gerekli durumlarda kullanılması gereken sonlandırma dirençleri düzgün şekilde tanımlanmış.
+- [ ] GND veya VCC ye bağlanacak olan ayar pinleri direkt olarak bağlanmadığı kontrol edildi.
+- [ ] Tasarım teşhis noktaları (LED, test noktası veya haberleşme portları) uygun şekilde kullanılmış.
+- [ ] Pin isimleri ve çok işlevli pin sembolleri tasarıma uygun şekilde düzenlenmiş.
+- [ ] DIP anahtarları ve/veya seçimsel atlama noktaları mantıksal yapıya uygun şekilde yerleştirilmiş.
+- [ ] Referans göstergeleri standart olarak tanımlanmış.
+	- [ ] R : Sabit dirençler.
+	- [ ] RN : Çoklu direnç networkleri.
+	- [ ] RV : Değişken dirençler.
+	- [ ] C : Kapasitör (network, sabit veya değişken).
+	- [ ] L : Induktör.
+	- [ ] Q : Transistor, FET, SCR, TRIAC vb.
+	- [ ] D : Diyod, rectifier, Zener, varicap, LED vb.
+	- [ ] DL : Multisegment ekran (herhangi bir tip).
+	- [ ] VR : Voltaj regülatörü.
+	- [ ] U : Entegre.
+	- [ ] J : Soket (dişi).
+	- [ ] P : Soket (erkek).
+	- [ ] JP : Jumper.
+	- [ ] X : Kristal.
+	- [ ] M : Modül.
+	- [ ] S : Mekanik switch.
+	- [ ] F : Sigorta
+	- [ ] FL : Filtre
+	- [ ] T : Transformer
+	- [ ] KB : Klavye veya tuş takımı
+	- [ ] BT : Batarya
+
