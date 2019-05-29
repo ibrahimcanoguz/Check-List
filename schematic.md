@@ -1,7 +1,5 @@
 # Şematik Şekli ve Elektronik Kontrol Listesi
 
-## Şematik Şekli Kontrol Listesi
-
 1. Şematik tasarımın her sayfasında dosya ismi mevcut.
 2. Tüm bağlantılarda bağlantı işateti (nokta) mevcut.
 3. Komponent değerleri minimum karakterle ifade edilmiş.
